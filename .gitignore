@@ -1,0 +1,13 @@
+**/.env
+**/writable/*.sqlite*
+**/writable/cache/*
+**/writable/debugbar/*
+**/writable/logs/*
+**/writable/session/*
+**/writable/uploads/*
+!**/writable/**/.gitkeep
+!**/writable/**/index.html
+*.md
+
+
+!/framework/system/ThirdParty/Escaper/LICENSE.md

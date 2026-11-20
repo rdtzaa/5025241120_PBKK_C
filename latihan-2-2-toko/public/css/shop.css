@@ -1,0 +1,5 @@
+/* Display one quadrant of the existing product photo sheet per card. */
+.product-photo { position: relative; aspect-ratio: 1; overflow: hidden; }
+.product-photo img { position: absolute; inset: 0 auto auto 0; width: 200%; }
+.photo-pen img, .photo-folder img { right: 0; left: auto; }
+.photo-notes img, .photo-folder img { top: auto; bottom: 0; }
